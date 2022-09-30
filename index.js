@@ -1,6 +1,5 @@
-const Person = require('./classes/person.js');
-const Professor = require('./classes/professor.js');
-const Student = require('./classes/student.js');
+const Professor = require('./classes-ts/professor');
+const Student = require();
 
 
 const matias = new Professor('Matias', 'Operating Systems');
