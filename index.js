@@ -1,6 +1,5 @@
-const Professor = require('./classes-ts/professor');
-const Student = require();
-
+import Professor from "./classes-ts/professor";
+import Student from "./classes-ts/student";
 
 const matias = new Professor('Matias', 'Operating Systems');
 const facundo = new Student('Facundo', 20, 6);

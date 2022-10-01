@@ -1,6 +1,6 @@
 import Person from "../classes/person";
 
-class Professor extends Person {
+export default class Professor extends Person {
 
 	private course : string;
 
@@ -22,5 +22,3 @@ class Professor extends Person {
     return 7;
   }
 }
-
-export default { Professor };

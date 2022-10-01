@@ -1,4 +1,4 @@
-class Person {
+export default class Person {
 	
 	readonly name: string;
 	age: number
@@ -13,5 +13,3 @@ class Person {
 	}
 }
 
-
-export default Person;

@@ -1,6 +1,6 @@
-import * as Person from "../classes/person";
+import Person from "../classes/person";
 
-class Student extends Person {
+export default class Student extends Person {
 
 	private year : number
 
@@ -22,6 +22,3 @@ class Student extends Person {
 		return true;
   }
 }
-
-
-export default { Student };
